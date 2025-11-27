@@ -1605,25 +1605,34 @@
 <h1 id="_1">Аутентификация<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <h2 id="_2">Получение токена<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>Для получения токена выполните запрос:</p>
-<p>```http
-POST https://zefixed.ru/raspyx/api/v1/users/login
-Content-Type: application/json</p>
-<p>{
-  "username": "ваш_логин",
-  "password": "ваш_пароль"
-}</p>
-<p>В ответ вы получите JWT токен:
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "expires_at": "2024-01-15T12:00:00Z"
-}</p>
+<div class="highlight"><pre><span></span><code>curl -X &#39;POST&#39; \
+  &#39;https://zefixed.ru/raspyx/api/v1/users/login&#39; \
+  -H &#39;accept: application/json&#39; \
+  -H &#39;Content-Type: application/json&#39; \
+  -d &#39;{
+  &quot;password&quot;: &quot;YWNjZXNzdG9hcGk=&quot;,
+  &quot;username&quot;: &quot;accesstoapi&quot;
+}&#39;
+</code></pre></div>
+<p>В ответ вы получите JWT токен:</p>
+<div class="highlight"><pre><span></span><code>{
+  &quot;status&quot;: &quot;OK&quot;,
+  &quot;response&quot;: {
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NfbGV2ZWwiOjUwLCJleHAiOjE3NjQzNTcyNDgsInN1YiI6ImFjY2Vzc3RvYXBpIn0.pYalhMoYqrHzKEj7MadRE5XJT4arFExp2gzfazcVU10&quot;,
+    &quot;token_type&quot;: &quot;bearer&quot;
+  }
+}
+</code></pre></div>
 <h2 id="_3">Использование токена<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p>Добавьте полученный токен в заголовок Authorization:</p>
-<p>GET https://zefixed.ru/raspyx/api/v1/groups
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...</p>
-<p>Пример с curl:</p>
-<p>curl -X GET "https://zefixed.ru/raspyx/api/v1/groups" \
-  -H "Authorization: Bearer ваш_токен_здесь"</p>
+<div class="highlight"><pre><span></span><code>GET https://zefixed.ru/raspyx/api/v1/groups
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+
+Пример с curl:
+
+curl -X GET &quot;https://zefixed.ru/raspyx/api/v1/groups&quot; \
+  -H &quot;Authorization: Bearer ваш_токен_здесь&quot;
+</code></pre></div>
 
 
 
