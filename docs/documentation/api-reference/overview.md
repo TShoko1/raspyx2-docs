@@ -2,4 +2,4 @@
 
 REST API для системы управления университетским расписанием.
 
-## Базовый URL
+https://zefixed.ru/raspyx/api/v1
