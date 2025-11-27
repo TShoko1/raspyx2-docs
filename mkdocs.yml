@@ -1,4 +1,4 @@
-site_name: API Расписания raspyx2
+site_name: API Расписания raspyx
 site_description: Документация и план развития API университетского расписания
 site_url: https://tshoko1.github.io/raspyx2-docs/
 repo_url: https://github.com/tshoko1/raspyx2-docs
@@ -84,4 +84,4 @@ extra:
       link: https://github.com/tshoko1/raspyx2-docs
 
 copyright: |
-  &copy; 2024 API Расписания raspyx2
+  &copy; 2025 API Расписания raspyx
