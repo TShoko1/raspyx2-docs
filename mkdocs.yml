@@ -1,0 +1,83 @@
+site_name: API Расписания raspyx2
+site_description: Документация и план развития API университетского расписания
+site_url: https://yourusername.github.io/raspyx2-docs/  # ЗАМЕНИТЕ на ваш URL
+repo_name: yourusername/raspyx2-docs  # ЗАМЕНИТЕ на ваш репозиторий
+repo_url: https://github.com/yourusername/raspyx2-docs  # ЗАМЕНИТЕ
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Главная: index.md
+  - '1. Анализ инструментов': 
+    - 'Выбор инструмента документирования': analysis/tool-selection.md
+    - 'Рекомендация': analysis/recommendation.md
+  - '2. Документация API':
+    - 'Быстрый старт': documentation/quickstart.md
+    - 'Справочник API': 
+      - 'Обзор': documentation/api-reference/overview.md
+      - 'Аутентификация': documentation/api-reference/authentication.md
+      - 'Эндпоинты': 
+        - 'Расписание': documentation/api-reference/endpoints/schedule.md
+        - 'Группы': documentation/api-reference/endpoints/groups.md
+    - 'Практические руководства': 
+      - 'Интеграция': documentation/guides/integration.md
+      - 'Лучшие практики': documentation/guides/best-practices.md
+  - '3. Текущее состояние':
+    - 'Архитектура': current-state/architecture.md
+    - 'Технологический стек': current-state/tech-stack.md
+    - 'Ограничения': current-state/limitations.md
+  - '4. План развития':
+    - 'Roadmap': roadmap/future-plans.md
+    - 'Миграционные руководства': roadmap/migration-guides.md
+  - 'О проекте': about/project-goals.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - git-committers:
+      repository: yourusername/raspyx2-docs  # ЗАМЕНИТЕ
+  - git-revision-date-localized
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/raspyx2-docs  # ЗАМЕНИТЕ
+
+copyright: |
+  &copy; 2024 API Расписания raspyx2 - <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
