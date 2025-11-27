@@ -1,67 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/about/project-goals/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/about/project-goals/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/analysis/recommendation/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/analysis/recommendation/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/analysis/tool-selection/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/analysis/tool-selection/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/current-state/architecture/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/current-state/architecture/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/current-state/limitations/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/current-state/limitations/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/current-state/tech-stack/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/current-state/tech-stack/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/documentation/quickstart/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/quickstart/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/documentation/api-reference/authentication/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/authentication/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/documentation/api-reference/overview/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/overview/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/groups/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/groups/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/schedule/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/locations/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/documentation/guides/best-practices/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/models/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/documentation/guides/integration/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/rooms/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/roadmap/future-plans/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/schedules/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
     <url>
-         <loc>https://TShoko1.github.io/raspyx2-docs/roadmap/migration-guides/</loc>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/subjects/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/subjecttypes/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/teachers/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/api-reference/endpoints/users/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/guides/best-practices/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tshoko1.github.io/raspyx2-docs/documentation/guides/integration/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tshoko1.github.io/raspyx2-docs/roadmap/future-plans/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tshoko1.github.io/raspyx2-docs/roadmap/migration-guides/</loc>
          <lastmod>2025-11-27</lastmod>
     </url>
 </urlset>
