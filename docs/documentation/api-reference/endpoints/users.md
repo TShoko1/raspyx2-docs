@@ -1,0 +1,28 @@
+# Пользователи (Users)
+
+Управление пользователями системы.
+
+## Эндпоинты
+
+| Метод | Путь | Описание |
+|-------|------|-----------|
+| `GET` | `/api/v1/users/` | Получение списка пользователей |
+| `GET` | `/api/v1/users/al/{al}` | Получение пользователей по уровню доступа |
+| `POST` | `/api/v1/users/login` | Аутентификация пользователя |
+| `POST` | `/api/v1/users/register` | Регистрация нового пользователя |
+| `GET` | `/api/v1/users/username/{username}` | Получение пользователя по имени |
+| `GET` | `/api/v1/users/uuid/{uuid}` | Получение пользователя по UUID |
+| `PUT` | `/api/v1/users/{uuid}` | Обновление пользователя |
+| `DELETE` | `/api/v1/users/{uuid}` | Удаление пользователя |
+
+## Примеры запросов
+
+### Аутентификация
+```http
+POST /api/v1/users/login
+Content-Type: application/json
+
+{
+  "username": "student",
+  "password": "password123"
+}

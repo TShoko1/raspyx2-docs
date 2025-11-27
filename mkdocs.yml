@@ -1,15 +1,31 @@
-site_name: API Расписания raspyx2
-site_url: https://tshoko1.github.io/raspyx2-docs/
-
-theme:
-  name: material
-
 nav:
   - Главная: index.md
-
-markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-
-plugins:
-  - search
+  - '1. Анализ инструментов': 
+    - 'Выбор инструмента документирования': analysis/tool-selection.md
+    - 'Рекомендация': analysis/recommendation.md
+  - '2. Документация API':
+    - 'Быстрый старт': documentation/quickstart.md
+    - 'Справочник API': 
+      - 'Обзор': documentation/api-reference/overview.md
+      - 'Аутентификация': documentation/api-reference/authentication.md
+      - 'Эндпоинты': 
+        - 'Группы': documentation/api-reference/endpoints/groups.md
+        - 'Локации': documentation/api-reference/endpoints/locations.md
+        - 'Аудитории': documentation/api-reference/endpoints/rooms.md
+        - 'Расписание': documentation/api-reference/endpoints/schedules.md
+        - 'Предметы': documentation/api-reference/endpoints/subjects.md
+        - 'Типы предметов': documentation/api-reference/endpoints/subjecttypes.md
+        - 'Преподаватели': documentation/api-reference/endpoints/teachers.md
+        - 'Пользователи': documentation/api-reference/endpoints/users.md
+      - 'Модели данных': documentation/api-reference/models.md
+    - 'Практические руководства': 
+      - 'Интеграция': documentation/guides/integration.md
+      - 'Лучшие практики': documentation/guides/best-practices.md
+  - '3. Текущее состояние':
+    - 'Архитектура': current-state/architecture.md
+    - 'Технологический стек': current-state/tech-stack.md
+    - 'Ограничения': current-state/limitations.md
+  - '4. План развития':
+    - 'Roadmap': roadmap/future-plans.md
+    - 'Миграционные руководства': roadmap/migration-guides.md
+  - 'О проекте': about/project-goals.md
