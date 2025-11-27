@@ -1,8 +1,8 @@
 site_name: API Расписания raspyx2
 site_description: Документация и план развития API университетского расписания
-site_url: https://yourusername.github.io/raspyx2-docs/  # ЗАМЕНИТЕ на ваш URL
-repo_name: yourusername/raspyx2-docs  # ЗАМЕНИТЕ на ваш репозиторий
-repo_url: https://github.com/yourusername/raspyx2-docs  # ЗАМЕНИТЕ
+site_url: https://TShoko1.github.io/raspyx2-docs/
+repo_name: TShoko1/raspyx2-docs
+repo_url: https://github.com/TShoko1/raspyx2-docs
 
 theme:
   name: material
@@ -70,14 +70,15 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-committers:
-      repository: yourusername/raspyx2-docs  # ЗАМЕНИТЕ
-  - git-revision-date-localized
+  # Временно закомментируйте проблемные плагины:
+  # - git-committers:
+  #     repository: TShoko1/raspyx2-docs
+  # - git-revision-date-localized
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/raspyx2-docs  # ЗАМЕНИТЕ
+      link: https://github.com/TShoko1/raspyx2-docs
 
 copyright: |
-  &copy; 2024 API Расписания raspyx2 - <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
+  &copy; 2024 API Расписания raspyx2
