@@ -1,6 +1,3 @@
-
-**`docs/documentation/api-reference/endpoints/subjects.md`**
-```markdown
 # Предметы (Subjects)
 
 Управление учебными предметами.

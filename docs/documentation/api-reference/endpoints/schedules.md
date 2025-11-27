@@ -1,6 +1,3 @@
-
-**`docs/documentation/api-reference/endpoints/schedules.md`**
-```markdown
 # Расписание (Schedules)
 
 Управление расписанием занятий.
@@ -24,9 +21,3 @@
 | `GET` | `/api/v1/schedules/uuid/{uuid}` | Получение расписания по UUID |
 | `PUT` | `/api/v1/schedules/{uuid}` | Обновление расписания |
 | `DELETE` | `/api/v1/schedules/{uuid}` | Удаление расписания |
-
-## Примеры запросов
-
-### Получение расписания группы
-```http
-GET /api/v1/schedules/group/number/ПМ-2101

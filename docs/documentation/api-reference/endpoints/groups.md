@@ -12,15 +12,3 @@
 | `GET` | `/api/v1/groups/uuid/{uuid}` | Получение группы по UUID |
 | `PUT` | `/api/v1/groups/{uuid}` | Обновление группы |
 | `DELETE` | `/api/v1/groups/{uuid}` | Удаление группы |
-
-## Примеры запросов
-
-### Создание группы
-```http
-POST /api/v1/groups
-Content-Type: application/json
-
-{
-  "number": "ПМ-2101",
-  "faculty": "ФПМИ"
-}

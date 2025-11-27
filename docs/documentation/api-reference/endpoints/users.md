@@ -14,15 +14,3 @@
 | `GET` | `/api/v1/users/uuid/{uuid}` | Получение пользователя по UUID |
 | `PUT` | `/api/v1/users/{uuid}` | Обновление пользователя |
 | `DELETE` | `/api/v1/users/{uuid}` | Удаление пользователя |
-
-## Примеры запросов
-
-### Аутентификация
-```http
-POST /api/v1/users/login
-Content-Type: application/json
-
-{
-  "username": "student",
-  "password": "password123"
-}
